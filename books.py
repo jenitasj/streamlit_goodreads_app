@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # --- CONFIGURATION ---
 # Note: Keep your API Key secure!
-API_KEY = "AIzaSyBXe_0wgBTYF7dDZu-YeLTs_lEitckdXkY" 
+API_KEY = "" 
 genai.configure(api_key=API_KEY)
 
 st.set_page_config(page_title="Hidden Gems of Santa Cruz", layout="wide", page_icon="☀️")
@@ -44,7 +44,7 @@ st.markdown("""
         padding: 20px;
     }
 
-    /* Button: Sunshine Yellow/Orange */
+    /* Button: Yellow/Orange */
     .stButton>button {
         background-color: #FFD700;
         color: #444;
