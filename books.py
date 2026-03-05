@@ -13,7 +13,7 @@ st.markdown("""
     <style>
     /* Main Background: Pastel Sunny Yellow */
     .stApp {
-        background-color: #FFF9E3;
+        background-color: #FFF9E2;
     }
     
     /* Headers */
